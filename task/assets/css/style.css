@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    background-color: aquamarine;
+    box-sizing: border-box;
+    height: 100%;
+}
+ul{
+list-style-type: none;
+margin: 50px 0px 0px 0px;
+padding: 0;
+display: flex;
+justify-content: center;
+}
+ul li{
+    display: inline;
+    margin-left: 20px;
+    padding: 20px;
+    background-color: yellow;
+    border: 5px solid blue;
+}
+.navigation{
+    background-color: gray;
+    width: 33.33%;
+    height: 80%;
+    
+    
+}
+.about-me{
+    background-color: yellow;
+    width: 33.33%;
+    height: 80%;
+}
+.statistic{
+    background-color: blue;
+    width: 33.33%;
+    height: 80%;
+}
+.card{
+    float: left;
+    margin-top: 20px;
+    height: 550px;
+    
+}
+#three-info p{
+   
+    text-align: center;
+   font-size: 30px;
+    height: 80%;
+}
+.footer p{
+    text-align: center;
+    justify-content: center;
+    color: rgb(161, 161, 38);
+}
